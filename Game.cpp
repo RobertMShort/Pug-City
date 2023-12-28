@@ -32,7 +32,7 @@ void Game::initVars()
     tankBulletSpawnTimerMax = 10.f;
     tankBulletSpawnTimer = tankBulletSpawnTimerMax;
     
-    BldMaxHitCount = 20; // Change back to 200
+    BldMaxHitCount = 200;
     
     pug = std::make_unique<Pug>();
     plane = std::make_unique<Plane>();
